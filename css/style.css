@@ -2658,11 +2658,6 @@ button.swiper-pagination-bullet {
     right: 0
   }
 }
-@media (max-width:80em) {
-  .footer-column-subscribe__form {
-    flex-direction: column
-  }
-}
 @media (max-width:75em) {
   .services__items {
     gap: 1.5625rem
@@ -2748,9 +2743,20 @@ button.swiper-pagination-bullet {
     margin-top: 15px
   }
 }
-@media (max-width:25em) {
-  .footer-column-subscribe__form {
-    flex-direction: column
+@media (max-width:767.98px) {
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-size: 36px
+  }
+}
+@media (max-width:479.98px) {
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-size: 32px
+  }
+  .swiper-pagination-bullet {
+    width: 14px;
+    height: 14px
   }
 }
 @media (max-width:20em) {
@@ -2779,6 +2785,11 @@ button.swiper-pagination-bullet {
 @media (max-width:87.5em) {
   .testimonials__navigation {
     position: relative
+  }
+}
+@media (max-width:81.25em) {
+  .footer-column-subscribe__form {
+    flex-direction: column
   }
 }
 @media (max-width:68.75em) {
@@ -3327,6 +3338,11 @@ button.swiper-pagination-bullet {
   .redirect__buttons {
     flex-direction: column;
     gap: 1.25rem
+  }
+}
+@media (max-width:26.25em) {
+  .footer-column-subscribe__form {
+    flex-direction: column!important
   }
 }
 @media (max-width:24.99875em) {
